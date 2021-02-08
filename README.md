@@ -1,8 +1,8 @@
 # HAKE-Action-Torch
 
-**Six-in-One**: CVPR'18 (Part States), CVPR'19 (interactiveness), CVPR'20 (PaStaNet, Dj-RN, SymNet), NeurIPS'20 (IDN).
+**Seven-in-One**: CVPR'18 (Part States), CVPR'19 (interactiveness), CVPR'20 (PaStaNet, Dj-RN, SymNet), NeurIPS'20 (IDN), TPAMI(Extended TIN).
 
-Under construction.
+Work in progress.
 
 <p align='center'>
     <img src="misc/hake_demo.jpg", height="300">
@@ -12,7 +12,14 @@ HAKE-Action-Torch (**PyTorch**) is a project to open the SOTA action understandi
 
 Currently, it is manintained by [Yong-Lu Li](https://dirtyharrylyl.github.io/), Xinpeng Liu and Zhanke Zhou, Hongwei Fan.
 
-### **News**: (2020.10.27) The code of [IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network)) ([Paper](https://arxiv.org/abs/2010.16219)) in NeurIPS'20 is released!
+#### **News**: (2021.2.7) Upgraded [HAKE-Activity2Vec](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/Activity2Vec) is released! Images/Videos --> human box + ID + skeleton + part states + action + representation. An offical demo is coming soon.
+<p align='center'>
+    <img src="https://github.com/DirtyHarryLYL/HAKE-Action-Torch/blob/Activity2Vec/demo/a2v-demo.gif", height="400">
+</p>
+
+(2021.1.15) Our extended version of [TIN (Transferable Interactiveness Network)](https://arxiv.org/abs/2101.10292) is accepted by TPAMI!
+
+(2020.10.27) The code of [IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network)) ([Paper](https://arxiv.org/abs/2010.16219)) in NeurIPS'20 is released!
 
 ## Project
 ```Branches
@@ -25,6 +32,7 @@ HAKE-Action-Torch
 ```
 
 ## Papers
+- [Extended TIN](https://arxiv.org/abs/2101.10292) (TPAMI'21)
 - [IDN](https://arxiv.org/pdf/2010.16219.pdf) (NeurIPS'20)
 - [PaStaNet](https://arxiv.org/pdf/2004.00945.pdf) (CVPR'20)
 - [DJ-RN](https://arxiv.org/pdf/2004.08154.pdf) (CVPR'20)
@@ -129,7 +137,6 @@ If you find our works useful, please consider citing:
 ```
 
 ## TODO
-- [ ] Extended TIN: new hierarchical model, better performance, new benchmarks
 - [ ] TIN-based element analysis
 - [ ] Refined Activity2Vec
 - [ ] Extended DJ-RN
